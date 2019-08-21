@@ -1,0 +1,32 @@
+% Example document to showcase syntax highlighting for the ConTeXt typesetting system
+
+\setupinteraction[
+	state=start,
+	title={Example Document},
+	author={Julian G.},
+]
+
+% URLs
+\useURL[contextwiki][https://wiki.contextgarden.net]
+
+% Change paper size
+\setuppapersize[A5,landscape]
+
+\starttext
+
+\title{ConTeXt Example}
+
+This is a small \ConTeXt{} example. \\
+For more information please visit \from[contextwiki].
+\blank[big]
+Inline equation: $ a^2 + b^2 = c^2 $.
+
+Displayed Formula:
+\startformula \startalign
+	\NC f(x)  = \NC 4x^2 \NR
+	\NC f'(x) = \NC 8x  \NR
+	\NC F(x)  = \NC \int{f(x) dx} = \frac{4}{3} \cdot x^3 + C \NR
+\stopalign \stopformula
+
+\stoptext
+
