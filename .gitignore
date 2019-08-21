@@ -2,3 +2,4 @@ vsc-extension-quickstart.md
 example/*.tuc
 example/*.log
 *.code-workspace
+context-syntax-*.vsix
