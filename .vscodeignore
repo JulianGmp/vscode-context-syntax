@@ -4,3 +4,4 @@
 vsc-extension-quickstart.md
 example/**
 img/**
+*.code-workspace
