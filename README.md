@@ -1,6 +1,6 @@
 # ConTeXt Syntax
 
-![Visual Studio Marketplace Version](https://vsmarketplacebadge.apphb.com/version/JulianGmp.context-syntax.svg)
+[![Visual Studio Marketplace Version](https://vsmarketplacebadge.apphb.com/version/JulianGmp.context-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=JulianGmp.context-syntax)
 
 A simple Visual Studio Code extension that enables syntax highlighting for ConTeXt.
 
