@@ -6,7 +6,7 @@ A simple Visual Studio Code extension that enables syntax highlighting for ConTe
 
 The Syntax definitions have been imported from this [TextMate package](https://github.com/pgundlach/context.tmbundle/blob/master/Syntaxes/ConTeXt.tmLanguage).
 
-For more information on ConTeXt typesetting please visit [contextgarden.net](contextgarden.net).
+For more information on ConTeXt typesetting please visit [contextgarden.net](https://contextgarden.net).
 
 ## Example
 
