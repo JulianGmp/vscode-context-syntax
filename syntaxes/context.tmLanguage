@@ -385,6 +385,12 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>(\\define[A-Za-z]*)(?![a-zA-Z])</string>
+			<key>name</key>
+			<string>storage.type.function.tex</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>(\\[A-Za-z]+)(?![a-zA-Z])</string>
 			<key>name</key>
 			<string>support.function.general.tex</string>
