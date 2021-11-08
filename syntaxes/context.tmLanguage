@@ -206,7 +206,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.document.context</string>
+					<string>keyword.control.document.context</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -229,7 +229,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.document.context</string>
+					<string>keyword.control.document.context</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -273,7 +273,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.document.context</string>
+					<string>keyword.control.document.context</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -287,7 +287,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.document.context</string>
+					<string>keyword.control.document.context</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -363,12 +363,12 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.enviromnent.context</string>
+					<string>keyword.control.enviromnent.context</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.enviromnent.variable</string>
+					<string>keyword.control.enviromnent.variable</string>
 				</dict>
 			</dict>
 			<key>end</key>
