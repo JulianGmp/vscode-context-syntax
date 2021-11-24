@@ -26,12 +26,6 @@
 			<string>keyword.operator.parentheses.context</string>
 		</dict>
 		<dict>
-			<key>match</key>
-			<string>[\[\]\{\}]</string>
-			<key>name</key>
-			<string>keyword.operator.braces.context</string>
-		</dict>
-		<dict>
 			<key>begin</key>
 			<string>\$</string>
 			<key>beginCaptures</key>
@@ -212,7 +206,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.document.context</string>
+					<string>keyword.control.document.context</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -235,7 +229,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.document.context</string>
+					<string>keyword.control.document.context</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -279,7 +273,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.document.context</string>
+					<string>keyword.control.document.context</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -293,7 +287,7 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.document.context</string>
+					<string>keyword.control.document.context</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -304,17 +298,62 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 		<dict>
 			<key>begin</key>
 			<string>\[</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.operator.braces.context</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>\]</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.operator.braces.context</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>meta.context.group.arguments</string>
 			<key>patterns</key>
 			<array>
 				<dict>
+					<key>match</key>
+					<string>([a-zA-Z]+)(=)</string>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>variable.parameter.function-call.context</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.operator.assignment.context</string>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>,</string>
+					<key>name</key>
+					<string>punctuation.separator.arguments.context</string>
+				</dict>
+				<dict>
 					<key>include</key>
 					<string>text.tex.context</string>
 				</dict>
 			</array>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[\[\]\{\}]</string>
+			<key>name</key>
+			<string>keyword.operator.braces.context</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -324,12 +363,12 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.enviromnent.context</string>
+					<string>keyword.control.enviromnent.context</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>support.function.enviromnent.variable</string>
+					<string>keyword.control.enviromnent.variable</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -343,6 +382,12 @@ Put specific matches for particular ConTeXt keyword.functions before the last tw
 					<string>text.tex.context</string>
 				</dict>
 			</array>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\\define[A-Za-z]*)(?![a-zA-Z])</string>
+			<key>name</key>
+			<string>storage.type.function.tex</string>
 		</dict>
 		<dict>
 			<key>match</key>
