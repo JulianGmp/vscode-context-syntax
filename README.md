@@ -2,6 +2,8 @@
 
 [![Visual Studio Marketplace Version](https://vsmarketplacebadge.apphb.com/version/JulianGmp.context-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=JulianGmp.context-syntax)
 
+[Also available at Open VSX](https://open-vsx.org/extension/JulianGmp/context-syntax)
+
 A simple Visual Studio Code extension that enables syntax highlighting for ConTeXt.
 
 The Syntax definitions have been imported from this [TextMate package](https://github.com/pgundlach/context.tmbundle/blob/master/Syntaxes/ConTeXt.tmLanguage).
